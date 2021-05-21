@@ -28,6 +28,7 @@
 <p><a href="#includes">Includes</a><br></p>
 <p><a href="#indexof">IndexOf</a><br></p>
 <p><a href="#every">Every</a></p>
+<p><a href="#charAt">charAt</a></p>
 <h2 id="map">Map</h2>
 <p>Array.prototype.map() returns a new array, with each element of that array modified based on a function that you pass into it.<br>
 </p><p>Map is not destructive to the original array.</p>
@@ -764,6 +765,38 @@ console.log(`${JSON.stringify(arr)}... are all nums less than 100? `+ arr.every(
 
 [99,78,34]... are all nums less than 100? true
 
+</code></pre>
+<p><a href="#list-of-array-methods">Back to the list</a></p>
+<h2 id="charAt">charAt</h2>
+<p>
+charAt() is a method that returns the character from the specified index.
+</p><p>Characters in a string are indexed from left to right. The index of the first character is 0, and the index of the last character in a string, called  <strong>stringName,</strong>  is stringName.length – 1.</p>
+
+<pre><code>string.charAt(index);
+</code></pre>
+<p><code>index</code><br>
+An integer between  <code>0</code>  and  <code>str.length - 1</code>. If the  <code>index</code>  cannot be converted to the integer or no  <code>index</code>  is provided, the default is  <code>0</code>, so the first character of  <code>str</code>  is returned.</p>
+<pre><code>var anyString = 'Brave new world';
+console.log("The character at index 0   is '" + anyString.charAt()   + "'");
+// No index was provided, used 0 as default
+
+console.log("The character at index 0   is '" + anyString.charAt(0)   + "'");
+console.log("The character at index 1   is '" + anyString.charAt(1)   + "'");
+console.log("The character at index 2   is '" + anyString.charAt(2)   + "'");
+console.log("The character at index 3   is '" + anyString.charAt(3)   + "'");
+console.log("The character at index 4   is '" + anyString.charAt(4)   + "'");
+console.log("The character at index 999 is '" + anyString.charAt(999) + "'");
+
+</code></pre>
+<p>These lines display the following:</p>
+<pre><code>The character at index 0   is 'B'
+
+The character at index 0   is 'B'
+The character at index 1   is 'r'
+The character at index 2   is 'a'
+The character at index 3   is 'v'
+The character at index 4   is 'e'
+The character at index 999 is ''
 </code></pre>
 <p><a href="#list-of-array-methods">Back to the list</a></p>
 <h2 id="section"></h2>
