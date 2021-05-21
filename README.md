@@ -6,14 +6,6 @@
 <hr>
 <hr>
 <h1 id="array-methods-in-javascript">Array Methods in JavaScript</h1>
-<p>Here is a rundown of some useful array methods in JavaScript. Each method listed below will include the following:</p>
-<ul>
-</ul><li>A description of what it does</li>
-<li>Brief explanation of how it works</li>
-<li>Time complexity (if appropriate)</li>
-<li>three code examples</li>
-
-<p>Here is a list of all the methods I will cover, in case you want to jump to a particular section!</p>
 <h3 id="list-of-array-methods">List of Array Methods</h3>
 <p><a href="#map">Map</a><br>
 </p><p><a href="#reduce">Reduce</a><br></p>
